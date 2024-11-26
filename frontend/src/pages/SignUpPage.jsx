@@ -35,7 +35,6 @@ const SignUpPage = () => {
   return (
     <div className="h-screen flex items-center justify-center">
       <div className="w-full max-w-md mt-12 p-6 sm:p-12 bg-white shadow-lg rounded-lg">
-        {/* Header */}
         <div className="text-center mb-8">
           <div className="flex flex-col items-center gap-2 group">
             <div
@@ -49,7 +48,6 @@ const SignUpPage = () => {
           </div>
         </div>
 
-        {/* Form */}
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="form-control">
             <label className="label">
@@ -128,7 +126,6 @@ const SignUpPage = () => {
           </button>
         </form>
 
-        {/* Footer */}
         <div className="text-center mt-6">
           <p className="text-base-content/60">
             Already have an account?{" "}
