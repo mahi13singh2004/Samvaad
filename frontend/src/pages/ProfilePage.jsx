@@ -24,14 +24,13 @@ const ProfilePage = () => {
   return (
     <div className="h-screen bg-gradient-to-b from-indigo-50 via-teal-100 to-blue-200 dark:bg-gradient-to-b dark:from-gray-800 dark:via-gray-900 dark:to-gray-700 pt-16">
       <div className="max-w-3xl mx-auto px-6 py-10 space-y-8">
-        
-        {/* Profile Header */}
+       
         <div className="text-center space-y-4">
           <h1 className="text-3xl font-bold text-indigo-600 dark:text-teal-300">Your Profile</h1>
           <p className="text-lg text-gray-600 dark:text-zinc-400">Freshen up your profile and photo!</p>
         </div>
 
-        {/* Avatar Section */}
+      
         <div className="flex justify-center gap-6 items-center">
           <div className="relative">
             <img
@@ -61,7 +60,7 @@ const ProfilePage = () => {
           </div>
         </div>
 
-        {/* Profile Info Section */}
+    
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           
           {/* Full Name */}
