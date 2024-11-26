@@ -1,7 +1,7 @@
 # **SAMVAAD** 📡💬  #
 *"Where words flow like butter on a hot paratha."* 🧈🥞  
 
-**Samvaad** is not just a conversation application. It's your personal *"let's talk about it"* zone, built to connect people across the digital chaat-stalls of the internet. With a sprinkle of Tailwind CSS, a dash of React, and a hearty ladle of Socket.IO magic, we’ve got the perfect recipe for seamless conversations.
+**Samvaad** is not just a conversation application. It's your personal *"let's talk about it"* zone, built to connect people across the digital chaat-stalls of the internet. 
 ---
 ## **🛠️ Built With Love (and Code):**
 - **Frontend:**  
