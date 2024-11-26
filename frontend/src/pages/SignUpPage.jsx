@@ -17,9 +17,9 @@ const SignUpPage = () => {
   const validateForm = () => {
     if (!formData.fullName.trim()) return toast.error("Full name is required");
     if (!formData.email.trim()) return toast.error("Email is required");
-    if (!/\S+@\S+\.\S+/.test(formData.email)) return toast.error("Invalid email format");
-    if (!formData.password) return toast.error("Password is required");
-    if (formData.password.length < 6) return toast.error("Password must be at least 6 characters");
+    if (!/\S+@\S+\.\S+/.test(formData.email)) return toast.error("Please give correct email");
+    if (!formData.password) return toast.error("Cannot leave password empty");
+    if (formData.password.length < 6) return toast.error("Please keep a longer password");
 
     return true;
   };
