@@ -4,7 +4,6 @@ const NoChatSelected = () => {
   return (
     <div className="w-full h-full flex flex-col items-center justify-center p-12 bg-base-100">
       <div className="max-w-lg space-y-8 text-center">
-        {/* Welcome Text with Slide-in Animation */}
         <h2 className="text-4xl font-extrabold text-gray-800 dark:text-white animate-[slideIn_1s_ease-out]">
           Welcome to <span className="text-primary">Samvaad</span>!
         </h2>
