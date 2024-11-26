@@ -7,7 +7,6 @@ const SettingsPage = () => {
   return (
     <div className="h-screen flex items-center justify-center">
       <div className="space-y-6 w-full max-w-5xl px-4">
-        {/* Theme Selection Section */}
         <div className="flex flex-col gap-1 text-center">
           <h2 className="text-2xl font-semibold">Theme</h2>
           <p className="text-sm text-base-content/70">Choose a theme for your chat interface</p>
