@@ -29,7 +29,6 @@ const Sidebar = () => {
           <span className="font-medium hidden lg:block text-lg text-base-content">Contacts</span>
         </div>
 
-        {/* Online Users Filter */}
         <div className="mt-3 hidden lg:flex items-center gap-2">
           <label className="cursor-pointer flex items-center gap-2">
             <input
@@ -44,7 +43,6 @@ const Sidebar = () => {
         </div>
       </div>
 
-      {/* User List */}
       <div className="overflow-y-auto w-full py-3 space-y-1">
         {filteredUsers.map((user) => (
           <button
@@ -66,7 +64,6 @@ const Sidebar = () => {
               )}
             </div>
 
-            {/* User info - only visible on larger screens */}
             <div className="hidden lg:block text-left min-w-0">
               <div className="font-medium truncate">{user.fullName}</div>
               <div className="text-sm text-zinc-400">
