@@ -26,4 +26,4 @@
 - 👥 **User-Friendly Interface:** Because life’s too short for confusing UIs.
 ---
 
-Visit now: https://trial-1-fu70.onrender.com
+Visit now: https://samvaad-bnh4.onrender.com
