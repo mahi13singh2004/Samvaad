@@ -19,7 +19,6 @@ const LoginPage = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-base-200 px-6 py-12">
       <div className="w-full max-w-lg space-y-8 bg-white p-8 rounded-lg shadow-md">
-        {/* Logo */}
         <div className="text-center mb-8">
           <div className="flex flex-col items-center gap-2 group">
             <div
@@ -32,8 +31,6 @@ const LoginPage = () => {
             <p className="text-base-content/60">Sign in to your account</p>
           </div>
         </div>
-
-        {/* Form */}
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="form-control">
             <label className="label">
