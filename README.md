@@ -1,4 +1,3 @@
-Visit now: (https://samvaad-wyqq.onrender.com)
 # **SAMVAAD** 📡💬  #
 *"Where words flow like butter on a hot paratha."* 🧈🥞  
 
